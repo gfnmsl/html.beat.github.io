@@ -1,0 +1,43 @@
+ScreenFX(流血特效)
+此模组为戏添屏幕。
+- 攻人/尸,屏上血迹
+- 猫击汝时屏幕划痕
+- 雨水
+- 近火镜头效
+- 溺于己
+
+君可于Mods.ini中置文理。
+
+异控制台之命也。
+mutate screenfxblood ->切换诸血效
+mutate screenfxbloodemitter - >切换戏内血之效也
+mutate screenfxrain ->切换雨效
+mutate screenfxfire ->切换焰效
+mutate screenfxscratch ->切换猫抓痕
+mutate screenfxon ->诸效皆开
+mutate screenfxoff ->诸效皆闭
+mutate screenfxfluid ->溺汽油之效也
+mutate screenfxhelp ->阅诸令表
+
+Drop On Death(死亡效果)
+
+新戏 -> 创意工坊 -> 模组 -> Drop On Death -> Start
+
+控制台命
+"mutate dod +" - 益落物
+"mutate dod -" - 减落物
+
+Deluxe Head Explosion(豪华爆头)
+
+新戏 ->创意工坊 ->模组 ->Deluxe Head Explosion ->Start
+
+添加后自动生效
+
+P2M@DMods （AW7MaDInventory）
+
+1. 启动 Postal2
+2. 进入 开始游戏 --> 创意工坊
+3. 选择"模组"选项卡,双击"AW7MaDInventory"模组
+4. 点击"Start"按钮开始游戏!
+
+君有一可以取一定项者。 君可于关中得物。
