@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+ul,
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+h1 {
+  margin: 20px 30px;
+}
+
+.lianjie {
+  display: flex;
+  flex-direction: column;
+}
+
+.lianjie a {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.lianjie a:hover {
+  color: orange;
+}
