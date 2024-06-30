@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>for循环嵌套2</title>
+  <style>
+    @keyframes futuristic-background {
+      0% {
+        background-color: #0072ff;
+      }
+
+      50% {
+        background-color: #00c6ff;
+      }
+
+      100% {
+        background-color: #0072ff;
+      }
+    }
+
+    /* 应用动画到背景 */
+    body {
+      animation: futuristic-background 5s infinite;
+    }
+
+    span {
+      display: inline-block;
+      border: 1px solid pink;
+      padding: 5px 10px;
+      margin: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    // 九九乘法表
+    for (let $xnum = 1; $xnum <= 9; $xnum++) {
+      // 外部循环
+      for (let $ynum = 1; $ynum <= $xnum; $ynum++) {
+        document.write(`<span>${$ynum} x ${$xnum} = ${$xnum * $ynum}</span>`)
+      }
+      document.write(`<br>`)
+    }
+  </script>
+</body>
+
+</html>
