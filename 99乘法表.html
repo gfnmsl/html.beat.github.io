@@ -2,44 +2,42 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>for循环嵌套2</title>
+  <title>练习嵌套for循环</title>
+  <link rel="stylesheet" href="https://gfnmsl.github.io/html.beat.github.io/背景.css">
   <style>
-    @keyframes futuristic-background {
-      0% {
-        background-color: #0072ff;
-      }
-
-      50% {
-        background-color: #00c6ff;
-      }
-
-      100% {
-        background-color: #0072ff;
-      }
-    }
-
-    /* 应用动画到背景 */
-    body {
-      animation: futuristic-background 5s infinite;
-    }
-
-    span {
+    div {
+      width: 150px;
+      /*宽*/
+      height: 30px;
+      /*高*/
       display: inline-block;
-      border: 1px solid pink;
-      padding: 5px 10px;
+      /*转换为行内块元素*/
+      font-size: 20px;
+      /*字体大小*/
+      font-weight: 700;
+      /*字体粗细*/
+      text-align: center;
+      /*文字对齐方式*/
+      line-height: 30px;
+      /*行高*/
+      border: 1px solid grey;
+      /*边框线*/
       margin: 5px;
+      /*盒子外边距*/
     }
   </style>
 </head>
 
 <body>
   <script>
-    // 九九乘法表
-    for (let $xnum = 1; $xnum <= 9; $xnum++) {
-      // 外部循环
-      for (let $ynum = 1; $ynum <= $xnum; $ynum++) {
-        document.write(`<span>${$ynum} x ${$xnum} = ${$xnum * $ynum}</span>`)
+    // 要求:制作九九乘法表
+    for (let $i = 1; $i <= 9; $i++) {
+      // 外层循环
+      for (let $t = 1; $t <= $i; $t++) {
+        // 内层循环
+        document.write(`<div>${$t} x ${$i} = ${$t * $i}</div>`)
       }
+      // 换行
       document.write(`<br>`)
     }
   </script>
